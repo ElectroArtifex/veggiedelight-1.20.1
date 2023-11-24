@@ -1,5 +1,7 @@
 package net.electroartifex.veggiedelight;
 
+import net.electroartifex.veggiedelight.item.ModItemGroups;
+import net.electroartifex.veggiedelight.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -14,7 +16,8 @@ public class VeggieDelight implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 
-		LOGGER.info("Hello Fabric world!");
 	}
 }
