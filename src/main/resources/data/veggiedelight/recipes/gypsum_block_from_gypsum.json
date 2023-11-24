@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":{
+    "#": {
+      "item": "veggiedelight:gypsum"
+    }
+  },
+  "result": {
+    "item": "veggiedelight:gypsum_block"
+  }
+}

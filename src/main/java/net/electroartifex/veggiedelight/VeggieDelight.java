@@ -1,5 +1,6 @@
 package net.electroartifex.veggiedelight;
 
+import net.electroartifex.veggiedelight.block.ModBlocks;
 import net.electroartifex.veggiedelight.item.ModItemGroups;
 import net.electroartifex.veggiedelight.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,7 +18,9 @@ public class VeggieDelight implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

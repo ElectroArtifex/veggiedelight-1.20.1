@@ -5,6 +5,8 @@
   "item.veggiedelight.soy_milk": "Soy Milk",
   "item.veggiedelight.tofu": "Tofu",
 
-  "itemgroup.soybean": "Veggie Delight"
+  "block.veggiedelight.gypsum_block": "Block of Gypsum",
+  "block.veggiedelight.gypsum_ore": "Gypsum Ore",
 
+  "itemgroup.soybean": "Veggie Delight"
 }

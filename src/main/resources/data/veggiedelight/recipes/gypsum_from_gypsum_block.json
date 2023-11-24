@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gypsum",
+  "ingredients": [
+    {
+      "item": "veggiedelight:gypsum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "veggiedelight:gypsum"
+  }
+}

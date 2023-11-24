@@ -1,6 +1,7 @@
 package net.electroartifex.veggiedelight.item;
 
 import net.electroartifex.veggiedelight.VeggieDelight;
+import net.electroartifex.veggiedelight.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -19,6 +20,9 @@ public class ModItemGroups {
                     entries.add(ModItems.GYPSUM);
                     entries.add(ModItems.SOY_MILK);
                     entries.add(ModItems.TOFU);
+
+                    entries.add(ModBlocks.GYPSUM_BLOCK);
+                    entries.add(ModBlocks.GYPSUM_ORE);
 
             }).build());
     public static void registerItemGroups() {
