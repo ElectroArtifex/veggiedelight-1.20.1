@@ -1,6 +1,7 @@
-// 1.20.1	2023-11-24T19:40:03.9832569	VeggieDelight/Block Loot Tables
+// 1.20.1	2023-11-24T23:46:35.6765086	VeggieDelight/Block Loot Tables
+0ec43089b5e448ee2ab58aba5ed57271c9c2d9d8 data\veggiedelight\loot_tables\blocks\soybean_crop.json
 16e448ace4c44621f421034f7b3b7b913d806ad5 data\veggiedelight\loot_tables\blocks\apple_crate.json
-5683c658cd938a3dfcdac8db84910a951b30120b data\veggiedelight\loot_tables\blocks\gypsum_ore.json
+02a24a6f6b61713efd48ed8dd522c29b294170fe data\veggiedelight\loot_tables\blocks\gypsum_ore.json
 060f096524683ebd8dd30879284b6890d2154967 data\veggiedelight\loot_tables\blocks\pumpkin_crate.json
 0cedef363df3ebe4b84f7dfbdd2fab3f5fd5770a data\veggiedelight\loot_tables\blocks\soybean_crate.json
 fd1d9b155ef0e0763a431828880b60ed488e125b data\veggiedelight\loot_tables\blocks\melon_crate.json

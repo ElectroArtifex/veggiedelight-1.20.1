@@ -1,9 +1,11 @@
 package net.electroartifex.veggiedelight.item;
 
 import net.electroartifex.veggiedelight.VeggieDelight;
+import net.electroartifex.veggiedelight.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -12,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item SOYBEAN = registerItem("soybean", new Item(new FabricItemSettings().food(ModFoodComponents.SOYBEAN)));
+    public static final Item SOYBEAN = registerItem("soybean", new AliasedBlockItem(ModBlocks.SOYBEAN_CROP, new FabricItemSettings().food(ModFoodComponents.SOYBEAN)));
     public static final Item DRIED_SOYBEAN = registerItem("dried_soybean", new Item(new FabricItemSettings()));
     public static final Item GYPSUM = registerItem("gypsum", new Item(new FabricItemSettings()));
     public static final Item SOY_MILK = registerItem("soy_milk", new Item(new FabricItemSettings()));

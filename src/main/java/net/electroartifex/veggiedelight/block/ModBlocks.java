@@ -1,6 +1,7 @@
 package net.electroartifex.veggiedelight.block;
 
 import net.electroartifex.veggiedelight.VeggieDelight;
+import net.electroartifex.veggiedelight.block.custom.SoybeanCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -21,13 +22,17 @@ public class ModBlocks {
 
 
     public static final Block APPLE_CRATE = registerBlock("apple_crate",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.CARVED_PUMPKIN)));
     public static final Block MELON_CRATE = registerBlock("melon_crate",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.CARVED_PUMPKIN)));
     public static final Block PUMPKIN_CRATE = registerBlock("pumpkin_crate",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.CARVED_PUMPKIN)));
     public static final Block SOYBEAN_CRATE = registerBlock("soybean_crate",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.CARVED_PUMPKIN)));
+
+
+    public static final Block SOYBEAN_CROP = Registry.register(Registries.BLOCK, new Identifier(VeggieDelight.MOD_ID, "soybean_crop"),
+            new SoybeanCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
 
     public static final Block GYPSUM_ORE = registerBlock("gypsum_ore",
