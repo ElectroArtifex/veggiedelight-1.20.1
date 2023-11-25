@@ -17,8 +17,29 @@ public class ModItems {
     public static final Item SOYBEAN = registerItem("soybean", new AliasedBlockItem(ModBlocks.SOYBEAN_CROP, new FabricItemSettings().food(ModFoodComponents.SOYBEAN)));
     public static final Item DRIED_SOYBEAN = registerItem("dried_soybean", new Item(new FabricItemSettings()));
     public static final Item GYPSUM = registerItem("gypsum", new Item(new FabricItemSettings()));
-    public static final Item SOY_MILK = registerItem("soy_milk", new Item(new FabricItemSettings()));
+    public static final Item SOY_MILK = registerItem("soy_milk", new Item(new FabricItemSettings().food(ModFoodComponents.SOY_MILK)));
     public static final Item TOFU = registerItem("tofu", new Item(new FabricItemSettings().food(ModFoodComponents.TOFU)));
+    public static final Item FAKON = registerItem("fakon", new Item(new FabricItemSettings().food(ModFoodComponents.FAKON)));
+    public static final Item BEFF = registerItem("beff", new Item(new FabricItemSettings().food(ModFoodComponents.BEFF)));
+    public static final Item MUTTN = registerItem("muttn", new Item(new FabricItemSettings().food(ModFoodComponents.MUTTN)));
+    public static final Item CHICKN = registerItem("chickn", new Item(new FabricItemSettings().food(ModFoodComponents.CHICKN)));
+    public static final Item HEM = registerItem("hem", new Item(new FabricItemSettings().food(ModFoodComponents.HEM)));
+    public static final Item RABBNT = registerItem("rabbnt", new Item(new FabricItemSettings().food(ModFoodComponents.RABBNT)));
+    public static final Item SORTA_FISHY = registerItem("sorta_fishy", new Item(new FabricItemSettings().food(ModFoodComponents.SORTA_FISHY)));
+    public static final Item CHEEZ = registerItem("cheez", new Item(new FabricItemSettings().food(ModFoodComponents.CHEEZ)));
+    public static final Item NEGG = registerItem("negg", new Item(new FabricItemSettings().food(ModFoodComponents.NEGG)));
+
+    public static final Item FAKON_RECIPE = registerItem("fakon_recipe", new Item(new FabricItemSettings()));
+    public static final Item BEFF_RECIPE = registerItem("beff_recipe", new Item(new FabricItemSettings()));
+    public static final Item MUTTN_RECIPE = registerItem("muttn_recipe", new Item(new FabricItemSettings()));
+    public static final Item CHICKN_RECIPE = registerItem("chickn_recipe", new Item(new FabricItemSettings()));
+    public static final Item HEM_RECIPE = registerItem("hem_recipe", new Item(new FabricItemSettings()));
+    public static final Item RABBNT_RECIPE = registerItem("rabbnt_recipe", new Item(new FabricItemSettings()));
+    public static final Item SORTA_FISHY_RECIPE = registerItem("sorta_fishy_recipe", new Item(new FabricItemSettings()));
+    public static final Item CHEEZ_RECIPE = registerItem("cheez_recipe", new Item(new FabricItemSettings()));
+    public static final Item NEGG_RECIPE = registerItem("negg_recipe", new Item(new FabricItemSettings()));
+
+
 
     private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(SOYBEAN);
@@ -26,6 +47,16 @@ public class ModItems {
         entries.add(GYPSUM);
         entries.add(SOY_MILK);
         entries.add(TOFU);
+        entries.add(FAKON);
+        entries.add(HEM);
+        entries.add(CHICKN);
+        entries.add(BEFF);
+        entries.add(MUTTN);
+        entries.add(RABBNT);
+        entries.add(SORTA_FISHY);
+        entries.add(CHEEZ);
+        entries.add(NEGG);
+
 
     }
 

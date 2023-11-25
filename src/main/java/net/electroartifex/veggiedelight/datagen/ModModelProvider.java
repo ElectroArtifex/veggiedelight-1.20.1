@@ -33,5 +33,23 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SOY_MILK, Models.GENERATED);
         itemModelGenerator.register(ModItems.DRIED_SOYBEAN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOFU, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BEFF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BEFF_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHICKN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHEEZ, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHICKN_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHEEZ_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FAKON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FAKON_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HEM_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUTTN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUTTN_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NEGG, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NEGG_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RABBNT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RABBNT_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SORTA_FISHY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SORTA_FISHY_RECIPE, Models.GENERATED);
     }
 }
