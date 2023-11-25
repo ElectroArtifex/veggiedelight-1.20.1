@@ -1,12 +1,19 @@
 {
-  "item.veggiedelight.soybean": "Soybean",
-  "item.veggiedelight.dried_soybean": "Dried Soybean",
+  "item.veggiedelight.soybean": "Soybeans",
+  "item.veggiedelight.dried_soybean": "Dried Soybeans",
   "item.veggiedelight.gypsum": "Gypsum",
   "item.veggiedelight.soy_milk": "Soy Milk",
   "item.veggiedelight.tofu": "Tofu",
 
   "block.veggiedelight.gypsum_block": "Block of Gypsum",
   "block.veggiedelight.gypsum_ore": "Gypsum Ore",
+
+  "block.veggiedelight.apple_crate": "Crate of Apples",
+  "block.veggiedelight.melon_crate": "Crate of Melons",
+  "block.veggiedelight.pumpkin_crate": "Crate of Pumpkins",
+  "block.veggiedelight.soybean_crate": "Crate of Soybeans",
+
+
 
   "itemgroup.soybean": "Veggie Delight"
 }

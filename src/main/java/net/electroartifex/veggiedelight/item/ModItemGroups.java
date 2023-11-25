@@ -24,6 +24,11 @@ public class ModItemGroups {
                     entries.add(ModBlocks.GYPSUM_BLOCK);
                     entries.add(ModBlocks.GYPSUM_ORE);
 
+                    entries.add(ModBlocks.APPLE_CRATE);
+                    entries.add(ModBlocks.MELON_CRATE);
+                    entries.add(ModBlocks.PUMPKIN_CRATE);
+                    entries.add(ModBlocks.SOYBEAN_CRATE);
+
             }).build());
     public static void registerItemGroups() {
         VeggieDelight.LOGGER.info("Registering Item Groups for " +VeggieDelight.MOD_ID);

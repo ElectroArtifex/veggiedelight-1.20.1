@@ -18,6 +18,18 @@ public class ModBlocks {
 
     public static final Block GYPSUM_BLOCK = registerBlock("gypsum_block",
             new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK)));
+
+
+    public static final Block APPLE_CRATE = registerBlock("apple_crate",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block MELON_CRATE = registerBlock("melon_crate",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block PUMPKIN_CRATE = registerBlock("pumpkin_crate",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block SOYBEAN_CRATE = registerBlock("soybean_crate",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+
     public static final Block GYPSUM_ORE = registerBlock("gypsum_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.COAL_ORE).sounds(BlockSoundGroup.GRAVEL), UniformIntProvider.create(2,5)));
 

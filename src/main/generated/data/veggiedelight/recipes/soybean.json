@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "veggiedelight:soybean_crate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "veggiedelight:soybean"
+  }
+}
