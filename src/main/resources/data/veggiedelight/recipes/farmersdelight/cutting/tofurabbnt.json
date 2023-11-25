@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiedelight:tofu"
+    }
+  ],
+  "result": [
+    {
+      "item": "veggiedelight:rabbnt"
+    }
+  ],
+  "tool": {
+    "item": "veggiedelight:rabbnt_recipe"
+  }
+}

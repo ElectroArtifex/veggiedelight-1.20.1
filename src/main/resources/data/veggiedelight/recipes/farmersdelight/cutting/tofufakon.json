@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiedelight:tofu"
+    }
+  ],
+  "result": [
+    {
+      "item": "veggiedelight:fakon"
+    }
+  ],
+  "tool": {
+    "item": "veggiedelight:fakon_recipe"
+  }
+}

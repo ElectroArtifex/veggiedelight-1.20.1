@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiedelight:tofu"
+    }
+  ],
+  "result": [
+    {
+      "item": "veggiedelight:sorta_fishy"
+    }
+  ],
+  "tool": {
+    "item": "veggiedelight:sorta_fishy_recipe"
+  }
+}

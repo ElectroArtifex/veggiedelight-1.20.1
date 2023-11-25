@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "veggiedelight:tofu"
+    }
+  ],
+  "result": [
+    {
+      "item": "veggiedelight:hem"
+    }
+  ],
+  "tool": {
+    "item": "veggiedelight:hem_recipe"
+  }
+}
