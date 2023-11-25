@@ -23,6 +23,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PUMPKIN_CRATE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOYBEAN_CRATE);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WILD_SOYBEAN);
+
         blockStateModelGenerator.registerCrop(ModBlocks.SOYBEAN_CROP, SoybeanCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7);
 
     }
@@ -51,5 +53,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RABBNT_RECIPE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SORTA_FISHY, Models.GENERATED);
         itemModelGenerator.register(ModItems.SORTA_FISHY_RECIPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EDAMAME, Models.GENERATED);
+        itemModelGenerator.register(ModItems.UDON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SILKEN_STEW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MISO_BROTH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MISO_SOUP, Models.GENERATED);
     }
 }

@@ -34,6 +34,9 @@ public class ModBlocks {
     public static final Block SOYBEAN_CROP = Registry.register(Registries.BLOCK, new Identifier(VeggieDelight.MOD_ID, "soybean_crop"),
             new SoybeanCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
+    public static final Block WILD_SOYBEAN = registerBlock("wild_soybean",
+            new Block(FabricBlockSettings.copyOf(Blocks.CORNFLOWER).nonOpaque().noCollision()));
+
 
     public static final Block GYPSUM_ORE = registerBlock("gypsum_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.COAL_ORE).sounds(BlockSoundGroup.GRAVEL), UniformIntProvider.create(2,5)));

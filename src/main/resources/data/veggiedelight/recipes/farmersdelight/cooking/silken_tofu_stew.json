@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "veggiedelight:miso_broth"
+    },
+    {
+      "item": "veggiedelight:tofu"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "result": {
+    "item": "veggiedelight:silken_stew"
+  }
+}

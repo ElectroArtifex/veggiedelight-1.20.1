@@ -35,6 +35,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PUMPKIN_CRATE);
         addDrop(ModBlocks.SOYBEAN_CRATE);
 
+        addDrop(ModBlocks.WILD_SOYBEAN, ModItems.SOYBEAN);
+
         addDrop(ModBlocks.GYPSUM_ORE, copperLikeOreDrops(ModBlocks.GYPSUM_ORE, ModItems.GYPSUM));
 
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.SOYBEAN_CROP).properties(StatePredicate.Builder.create()

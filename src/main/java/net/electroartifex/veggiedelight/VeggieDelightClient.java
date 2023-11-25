@@ -9,6 +9,7 @@ public class VeggieDelightClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SOYBEAN_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_SOYBEAN, RenderLayer.getCutout());
 
     }
 }

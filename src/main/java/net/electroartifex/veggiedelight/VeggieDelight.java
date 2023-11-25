@@ -3,6 +3,7 @@ package net.electroartifex.veggiedelight;
 import net.electroartifex.veggiedelight.block.ModBlocks;
 import net.electroartifex.veggiedelight.item.ModItemGroups;
 import net.electroartifex.veggiedelight.item.ModItems;
+import net.electroartifex.veggiedelight.util.ModCustomTrades;
 import net.electroartifex.veggiedelight.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,6 +23,8 @@ public class VeggieDelight implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModCustomTrades.registerCustomTrades();
 
 		ModWorldGeneration.generateModWorldGen();
 

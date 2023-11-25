@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "veggiedelight:miso_broth"
+    },
+    {
+      "item": "veggiedelight:tofu"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "result": {
+    "item": "veggiedelight:miso_soup"
+  }
+}

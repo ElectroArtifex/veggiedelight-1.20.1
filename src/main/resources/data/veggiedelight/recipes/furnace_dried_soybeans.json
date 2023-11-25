@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "veggiedelight:soybean"
+  },
+  "result": "veggiedelight:dried_soybean",
+  "experience": 0.1,
+  "cookingtime": 100
+}

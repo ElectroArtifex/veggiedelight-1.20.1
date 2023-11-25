@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "veggiedelight:dried_soybean"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "farmersdelight:rice"
+    }
+  ],
+  "result": {
+    "item": "veggiedelight:miso_broth"
+  }
+}

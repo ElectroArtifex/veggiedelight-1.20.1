@@ -22,10 +22,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.GYPSUM, RecipeCategory.DECORATIONS, ModBlocks.GYPSUM_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.SOYBEAN, RecipeCategory.DECORATIONS, ModBlocks.SOYBEAN_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, Items.APPLE, RecipeCategory.DECORATIONS, ModBlocks.APPLE_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, Items.MELON, RecipeCategory.DECORATIONS, ModBlocks.MELON_CRATE);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, Items.PUMPKIN, RecipeCategory.DECORATIONS, ModBlocks.PUMPKIN_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, ModItems.SOYBEAN, RecipeCategory.DECORATIONS, ModBlocks.SOYBEAN_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, Items.APPLE, RecipeCategory.DECORATIONS, ModBlocks.APPLE_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, Items.MELON, RecipeCategory.DECORATIONS, ModBlocks.MELON_CRATE);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, Items.PUMPKIN, RecipeCategory.DECORATIONS, ModBlocks.PUMPKIN_CRATE);
 
     }
 }

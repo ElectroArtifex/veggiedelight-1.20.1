@@ -38,9 +38,15 @@ public class ModItemGroups {
                     entries.add(ModItems.RABBNT_RECIPE);
                     entries.add(ModItems.SORTA_FISHY);
                     entries.add(ModItems.SORTA_FISHY_RECIPE);
+                    entries.add(ModItems.EDAMAME);
+                    entries.add(ModItems.MISO_BROTH);
+                    entries.add(ModItems.MISO_SOUP);
+                    entries.add(ModItems.SILKEN_STEW);
+                    entries.add(ModItems.UDON);
 
                     entries.add(ModBlocks.GYPSUM_BLOCK);
                     entries.add(ModBlocks.GYPSUM_ORE);
+                    entries.add(ModBlocks.WILD_SOYBEAN);
 
                     entries.add(ModBlocks.APPLE_CRATE);
                     entries.add(ModBlocks.MELON_CRATE);

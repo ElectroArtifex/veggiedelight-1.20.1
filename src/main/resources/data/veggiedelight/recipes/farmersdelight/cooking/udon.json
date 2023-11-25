@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "veggiedelight:miso_broth"
+    },
+    {
+      "item": "veggiedelight:tofu"
+    },
+    {
+      "tag": "c:vegetables"
+    },
+    {
+      "tag": "c:pasta"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "veggiedelight:udon"
+  }
+}

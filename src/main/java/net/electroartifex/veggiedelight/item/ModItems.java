@@ -28,6 +28,11 @@ public class ModItems {
     public static final Item SORTA_FISHY = registerItem("sorta_fishy", new Item(new FabricItemSettings().food(ModFoodComponents.SORTA_FISHY)));
     public static final Item CHEEZ = registerItem("cheez", new Item(new FabricItemSettings().food(ModFoodComponents.CHEEZ)));
     public static final Item NEGG = registerItem("negg", new Item(new FabricItemSettings().food(ModFoodComponents.NEGG)));
+    public static final Item EDAMAME = registerItem("edamame", new Item(new FabricItemSettings().food(ModFoodComponents.EDAMAME)));
+    public static final Item MISO_BROTH = registerItem("miso_broth", new Item(new FabricItemSettings().food(ModFoodComponents.MISO_BROTH)));
+    public static final Item MISO_SOUP = registerItem("miso_soup", new Item(new FabricItemSettings().food(ModFoodComponents.MISO_SOUP)));
+    public static final Item UDON = registerItem("udon", new Item(new FabricItemSettings().food(ModFoodComponents.UDON)));
+    public static final Item SILKEN_STEW = registerItem("silken_stew", new Item(new FabricItemSettings().food(ModFoodComponents.SILKEN_STEW)));
 
     public static final Item FAKON_RECIPE = registerItem("fakon_recipe", new Item(new FabricItemSettings()));
     public static final Item BEFF_RECIPE = registerItem("beff_recipe", new Item(new FabricItemSettings()));
