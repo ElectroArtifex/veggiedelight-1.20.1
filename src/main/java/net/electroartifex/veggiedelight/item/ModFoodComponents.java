@@ -21,7 +21,7 @@ public class ModFoodComponents {
     public static final FoodComponent NEGG = new FoodComponent.Builder().hunger(4).saturationModifier(0.4f).build();
     public static final FoodComponent EDAMAME = new FoodComponent.Builder().hunger(3).saturationModifier(0.4f).build();
     public static final FoodComponent SILKEN_STEW = new FoodComponent.Builder().hunger(12).saturationModifier(0.8f).build();
-    public static final FoodComponent UDON = new FoodComponent.Builder().hunger(14).saturationModifier(0.75f).build();
+    public static final FoodComponent UDON = new FoodComponent.Builder().hunger(12).saturationModifier(0.75f).build();
     public static final FoodComponent MISO_BROTH = new FoodComponent.Builder().hunger(8).saturationModifier(0.7f).build();
-    public static final FoodComponent MISO_SOUP = new FoodComponent.Builder().hunger(12).saturationModifier(0.8f).build();
+    public static final FoodComponent MISO_SOUP = new FoodComponent.Builder().hunger(14).saturationModifier(0.8f).build();
 }
