@@ -1,10 +1,10 @@
-// 1.20.1	2023-11-25T15:25:54.597585	VeggieDelight/Model Definitions
+// 1.20.1	2023-11-25T19:10:24.6256585	VeggieDelight/Model Definitions
 49d572c43937f3d4f95445a0bb0afafb43bde774 assets\veggiedelight\models\item\hem.json
 140610bf69d3a6280ba3b9b2821afb9a5a946a4e assets\veggiedelight\models\item\chickn.json
-e4faf83f0a08d8209221c7f5a117783bf8f7f2d8 assets\veggiedelight\models\block\gypsum_block.json
 3531068a6edcbb99c84a90542ae4fc5cda29fe45 assets\veggiedelight\models\item\hem_recipe.json
+e4faf83f0a08d8209221c7f5a117783bf8f7f2d8 assets\veggiedelight\models\block\gypsum_block.json
 936050b1b77d271a622e971b3fdbe670af99dce8 assets\veggiedelight\models\item\silken_stew.json
-37f0ca2eb00c670e39f01b24feeeecfc1373e8a5 assets\veggiedelight\models\item\wild_soybean.json
+c78206cacd9b68a7ffc03916386d645d6886f94d assets\veggiedelight\models\item\wild_soybean.json
 86aad7183ac321f24c345a33259ad0e3c9fdfde4 assets\veggiedelight\blockstates\gypsum_ore.json
 9453317a9c059c5704a5b56b6cd11cbfbafe3bab assets\veggiedelight\models\item\negg.json
 5264214db2743f166656b9685251c41809dad27f assets\veggiedelight\models\block\apple_crate.json
@@ -20,7 +20,7 @@ e3e0ddf507b481933867df9a58ed1a98abfb96bd assets\veggiedelight\models\item\miso_b
 78475c79294f1cfcb448d4b85f8ca393aef8d68b assets\veggiedelight\models\item\soy_milk.json
 5f5bee9f10856cca352eee9eed36be2545bd399c assets\veggiedelight\models\item\soybean_crate.json
 c5e0701b13e25724aa52a2859803db9b6bacdc3a assets\veggiedelight\models\block\soybean_crop_stage6.json
-a48f7a252269f8fe8131581c9580a87d0da7dcff assets\veggiedelight\models\block\wild_soybean.json
+113882cbcdfe4ed0b90cb2c8a64eaac7cef02253 assets\veggiedelight\models\block\wild_soybean.json
 2a682ba536e7c8dd4df4cb3ca420a66f8aead081 assets\veggiedelight\models\block\soybean_crop_stage3.json
 cfdd5cd5430ec1cd802ee3e6477f0687d2276cad assets\veggiedelight\models\item\beff_recipe.json
 a41ba76563f2b3ba372cf8865e2874d09ce70f8a assets\veggiedelight\models\block\soybean_crop_stage0.json

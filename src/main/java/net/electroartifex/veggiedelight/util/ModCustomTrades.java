@@ -2,7 +2,6 @@ package net.electroartifex.veggiedelight.util;
 
 import net.electroartifex.veggiedelight.item.ModItems;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.village.TradeOffer;

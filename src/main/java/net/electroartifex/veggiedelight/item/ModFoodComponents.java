@@ -7,6 +7,7 @@ import net.minecraft.item.FoodComponent;
 public class ModFoodComponents {
     public static final FoodComponent SOYBEAN = new FoodComponent.Builder().hunger(1).saturationModifier(0.1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.POISON,100), 0.7f).build();
+    public static final FoodComponent DRIED_SOYBEAN = new FoodComponent.Builder().hunger(2).saturationModifier(0.8f).build();
     public static final FoodComponent TOFU = new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build();
     public static final FoodComponent SOY_MILK = new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build();
     public static final FoodComponent FAKON = new FoodComponent.Builder().hunger(4).saturationModifier(0.8f).build();

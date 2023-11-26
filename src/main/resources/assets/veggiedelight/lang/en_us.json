@@ -22,7 +22,11 @@
   "item.veggiedelight.rabbnt_recipe": "Rabbit Substitute Recipe",
   "item.veggiedelight.sorta_fishy": "Sorta Fishy",
   "item.veggiedelight.sorta_fishy_recipe": "Fish Substitute Recipe",
-
+  "item.veggiedelight.edamame": "Edamame",
+  "item.veggiedelight.miso_broth": "Miso Broth",
+  "item.veggiedelight.miso_soup": "Miso Soup",
+  "item.veggiedelight.udon": "Udon",
+  "item.veggiedelight.silken_stew": "Silken Tofu Stew",
 
   "block.veggiedelight.gypsum_block": "Block of Gypsum",
   "block.veggiedelight.gypsum_ore": "Gypsum Ore",

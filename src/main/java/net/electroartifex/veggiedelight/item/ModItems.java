@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item SOYBEAN = registerItem("soybean", new AliasedBlockItem(ModBlocks.SOYBEAN_CROP, new FabricItemSettings().food(ModFoodComponents.SOYBEAN)));
-    public static final Item DRIED_SOYBEAN = registerItem("dried_soybean", new Item(new FabricItemSettings()));
+    public static final Item DRIED_SOYBEAN = registerItem("dried_soybean", new Item(new FabricItemSettings().food(ModFoodComponents.DRIED_SOYBEAN)));
     public static final Item GYPSUM = registerItem("gypsum", new Item(new FabricItemSettings()));
     public static final Item SOY_MILK = registerItem("soy_milk", new Item(new FabricItemSettings().food(ModFoodComponents.SOY_MILK)));
     public static final Item TOFU = registerItem("tofu", new Item(new FabricItemSettings().food(ModFoodComponents.TOFU)));

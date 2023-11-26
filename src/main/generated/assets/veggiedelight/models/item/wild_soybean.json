@@ -1,3 +1,6 @@
 {
-  "parent": "veggiedelight:block/wild_soybean"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "veggiedelight:block/wild_soybean"
+  }
 }

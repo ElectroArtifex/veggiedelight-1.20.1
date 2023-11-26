@@ -23,7 +23,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PUMPKIN_CRATE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOYBEAN_CRATE);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WILD_SOYBEAN);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.WILD_SOYBEAN, BlockStateModelGenerator.TintType.NOT_TINTED);
+
 
         blockStateModelGenerator.registerCrop(ModBlocks.SOYBEAN_CROP, SoybeanCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7);
 

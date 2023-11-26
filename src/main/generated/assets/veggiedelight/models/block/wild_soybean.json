@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "all": "veggiedelight:block/wild_soybean"
+    "cross": "veggiedelight:block/wild_soybean"
   }
 }
