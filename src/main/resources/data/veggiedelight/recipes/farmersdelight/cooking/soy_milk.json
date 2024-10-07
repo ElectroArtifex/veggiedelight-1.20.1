@@ -9,5 +9,8 @@
   ],
   "result": {
     "item": "veggiedelight:soy_milk"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
   }
 }

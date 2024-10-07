@@ -19,7 +19,11 @@
       "tag": "c:crops/onion"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiedelight:silken_stew"
+  },
+  "container": {
+    "item": "minecraft:bowl"
   }
 }

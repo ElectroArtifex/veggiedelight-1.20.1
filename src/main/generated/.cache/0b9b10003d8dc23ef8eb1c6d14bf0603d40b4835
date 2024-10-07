@@ -1,8 +1,8 @@
-// 1.20.1	2023-11-25T19:10:24.6256585	VeggieDelight/Model Definitions
-49d572c43937f3d4f95445a0bb0afafb43bde774 assets\veggiedelight\models\item\hem.json
+// 1.20.1	2023-11-25T21:09:11.3117128	VeggieDelight/Model Definitions
 140610bf69d3a6280ba3b9b2821afb9a5a946a4e assets\veggiedelight\models\item\chickn.json
-3531068a6edcbb99c84a90542ae4fc5cda29fe45 assets\veggiedelight\models\item\hem_recipe.json
+49d572c43937f3d4f95445a0bb0afafb43bde774 assets\veggiedelight\models\item\hem.json
 e4faf83f0a08d8209221c7f5a117783bf8f7f2d8 assets\veggiedelight\models\block\gypsum_block.json
+3531068a6edcbb99c84a90542ae4fc5cda29fe45 assets\veggiedelight\models\item\hem_recipe.json
 936050b1b77d271a622e971b3fdbe670af99dce8 assets\veggiedelight\models\item\silken_stew.json
 c78206cacd9b68a7ffc03916386d645d6886f94d assets\veggiedelight\models\item\wild_soybean.json
 86aad7183ac321f24c345a33259ad0e3c9fdfde4 assets\veggiedelight\blockstates\gypsum_ore.json

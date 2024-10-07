@@ -18,8 +18,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.GYPSUM_BLOCK);
 
-        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
-                .add(ModBlocks.GYPSUM_ORE);
 
 
 

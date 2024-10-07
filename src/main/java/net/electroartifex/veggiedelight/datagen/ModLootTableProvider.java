@@ -33,22 +33,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PUMPKIN_CRATE);
         addDrop(ModBlocks.SOYBEAN_CRATE);
 
-        addDrop(ModBlocks.WILD_SOYBEAN, ModItems.SOYBEAN);
-
-        addDrop(ModBlocks.GYPSUM_ORE, copperLikeOreDrops(ModBlocks.GYPSUM_ORE, ModItems.GYPSUM));
-
         BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.SOYBEAN_CROP).properties(StatePredicate.Builder.create()
                 .exactMatch(SoybeanCropBlock.AGE, 7));
         addDrop(ModBlocks.SOYBEAN_CROP, cropDrops(ModBlocks.SOYBEAN_CROP, ModItems.SOYBEAN, ModItems.SOYBEAN, builder));
 
-    }
-    public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
-        return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this.applyExplosionDecay(drop,
-                ((LeafEntry.Builder)
-                        ItemEntry.builder(ModItems.GYPSUM)
-                                .apply(SetCountLootFunction
-                                        .builder(UniformLootNumberProvider
-                                                .create(2.0f, 5.0f))))
-                        .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }
 }

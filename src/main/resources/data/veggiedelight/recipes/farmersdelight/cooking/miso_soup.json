@@ -13,7 +13,7 @@
       "tag": "c:crops/onion"
     },
     {
-      "item": "farmersdelight:rice"
+      "tag": "c:crops/rice"
     },
     {
       "item": "minecraft:brown_mushroom"
@@ -22,7 +22,11 @@
       "item": "minecraft:kelp"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiedelight:miso_soup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
   }
 }

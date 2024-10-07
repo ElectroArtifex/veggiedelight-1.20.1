@@ -17,13 +17,11 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GYPSUM_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GYPSUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.APPLE_CRATE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MELON_CRATE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PUMPKIN_CRATE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOYBEAN_CRATE);
 
-        blockStateModelGenerator.registerTintableCross(ModBlocks.WILD_SOYBEAN, BlockStateModelGenerator.TintType.NOT_TINTED);
 
 
         blockStateModelGenerator.registerCrop(ModBlocks.SOYBEAN_CROP, SoybeanCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7);

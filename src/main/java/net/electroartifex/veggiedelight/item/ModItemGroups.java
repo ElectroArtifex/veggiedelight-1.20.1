@@ -45,8 +45,6 @@ public class ModItemGroups {
                     entries.add(ModItems.UDON);
 
                     entries.add(ModBlocks.GYPSUM_BLOCK);
-                    entries.add(ModBlocks.GYPSUM_ORE);
-                    entries.add(ModBlocks.WILD_SOYBEAN);
 
                     entries.add(ModBlocks.APPLE_CRATE);
                     entries.add(ModBlocks.MELON_CRATE);

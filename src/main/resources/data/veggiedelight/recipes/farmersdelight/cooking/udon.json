@@ -10,16 +10,20 @@
       "item": "veggiedelight:tofu"
     },
     {
-      "tag": "c:vegetables"
+      "tag": "c:foods/vegetables"
     },
     {
-      "tag": "c:pasta"
+      "tag": "c:foods/pastas"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
     "item": "veggiedelight:udon"
+  },
+  "container": {
+    "item": "minecraft:bowl"
   }
 }

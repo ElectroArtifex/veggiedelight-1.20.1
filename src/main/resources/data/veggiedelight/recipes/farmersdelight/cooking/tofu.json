@@ -7,7 +7,7 @@
       "item": "veggiedelight:soy_milk"
     },
     {
-      "item": "veggiedelight:gypsum"
+      "tag": "c:crystals/gypsum"
     }
   ],
   "result": {
