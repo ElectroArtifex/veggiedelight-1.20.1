@@ -14,7 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup SOYBEAN_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(VeggieDelight.MOD_ID, "soybean"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soybean"))
-                .icon(() -> new ItemStack(ModItems.SOYBEAN)).entries((displayContext, entries) -> {
+                .icon(() -> new ItemStack(ModItems.EDAMAME)).entries((displayContext, entries) -> {
                     entries.add(ModItems.SOYBEAN);
                     entries.add(ModItems.DRIED_SOYBEAN);
                     entries.add(ModItems.GYPSUM);

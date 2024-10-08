@@ -4,6 +4,7 @@ import net.electroartifex.veggiedelight.block.ModBlocks;
 import net.electroartifex.veggiedelight.item.ModItemGroups;
 import net.electroartifex.veggiedelight.item.ModItems;
 import net.electroartifex.veggiedelight.util.ModCustomTrades;
+import net.electroartifex.veggiedelight.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -22,6 +23,7 @@ public class VeggieDelight implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModLootTableModifiers.modifyLootTables();
 
 		ModCustomTrades.registerCustomTrades();
 
