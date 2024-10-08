@@ -18,11 +18,6 @@ public class ModCustomTrades {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
                             new ItemStack(Items.PAPER, 1),
-                            new ItemStack(ModItems.CHEEZ_RECIPE, 1),
-                            4, 5, 5, 0.075f));
-                    factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(Items.PAPER, 1),
                             new ItemStack(ModItems.CHICKN_RECIPE, 1),
                             4, 5, 5, 0.075f));
                     factories.add((entity, random) -> new TradeOffer(
