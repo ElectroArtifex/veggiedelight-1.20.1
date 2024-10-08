@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "tag": "c:foods/raw_meats/raw_chicken"
+      },
+      {
+        "tag": "c:foods/fake_meats/soychicken"
+      }
+    ],
+
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "c:salad_ingredients"
+    },
+    {
+      "tag": "c:foods/vegetables"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersdelight:chicken_soup"
+  }
+}

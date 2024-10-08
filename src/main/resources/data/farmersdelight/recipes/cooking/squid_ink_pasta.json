@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "tag": "c:foods/raw_fishes"
+      },
+      {
+        "tag": "c:foods/fake_meats/soyfish"
+      }
+    ],
+    {
+      "tag": "c:foods/pastas"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersdelight:squid_ink_pasta"
+  }
+}

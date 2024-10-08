@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "veggiedelight:soybean"
+    },
+    {
+      "item": "veggiedelight:soy_milk"
+    },
+    {
+      "item": "veggiedelight:tofu"
+    },
+    {
+      "item": "veggiedelight:tofu"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "item": "minecraft:rabbit"
+    },
+    {
+      "item": "minecraft:rabbit"
+    }
+  ],
+  "result": {
+    "item": "veggiedelight:rabbnt_recipe"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    [
+      {
+        "item": "minecraft:cooked_beef"
+      },
+      {
+        "item": "veggiedelight:beff"
+      }
+    ],
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:steak_and_potatoes"
+  }
+}

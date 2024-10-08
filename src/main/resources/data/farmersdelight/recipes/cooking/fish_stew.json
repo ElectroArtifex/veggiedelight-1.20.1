@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "tag": "c:foods/raw_fishes"
+      },
+      {
+        "tag": "c:foods/fake_meats/soyfish"
+      }
+    ],
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersdelight:fish_stew"
+  }
+}

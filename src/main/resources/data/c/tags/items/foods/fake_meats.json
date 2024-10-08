@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#c:foods/fake_meats/soybacon",
+    "#c:foods/fake_meats/soybeef",
+    "#c:foods/fake_meats/soyegg",
+    "#c:foods/fake_meats/soyfish",
+    "#c:foods/fake_meats/soyham",
+    "#c:foods/fake_meats/soymutton",
+    "#c:foods/fake_meats/soypork",
+    "#c:foods/fake_meats/soyrabbit"
+  ]
+}

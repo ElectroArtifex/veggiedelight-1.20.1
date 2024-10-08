@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "veggiedelight:sorta_fishy_recipe"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "veggiedelight:sorta_fishy_recipe",
+    "count": 2
+  }
+}

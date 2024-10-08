@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:salmon_slice"
+    },
+    [
+      {
+        "item": "farmersdelight:salmon_slice"
+      },
+      {
+        "tag": "c:foods/fake_meats/soyfish"
+      }
+    ],
+
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "farmersdelight:salmon_roll"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "c:crops/cabbage"
+    },
+    [
+      {
+        "tag": "farmersdelight:cabbage_roll_ingredients"
+      },
+      {
+        "tag": "c:foods/fake_meats"
+      },
+      {
+        "tag": "c:foods/vegetables/soybeans"
+      }
+    ]
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "farmersdelight:cabbage_rolls"
+  }
+}

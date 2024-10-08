@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "tag": "c:foods/raw_meats/raw_beef"
+      },
+      {
+        "tag": "c:foods/fake_meats/soybeef"
+      }
+    ],
+
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersdelight:beef_stew"
+  }
+}

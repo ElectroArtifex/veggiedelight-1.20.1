@@ -12,13 +12,16 @@ import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import vectorwing.farmersdelight.common.item.ConsumableItem;
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 
 public class ModItems {
-    public static final Item SOYBEAN = registerItem("soybean", new AliasedBlockItem(ModBlocks.SOYBEAN_CROP, new FabricItemSettings().food(ModFoodComponents.SOYBEAN)));
-    public static final Item DRIED_SOYBEAN = registerItem("dried_soybean", new Item(new FabricItemSettings().food(ModFoodComponents.DRIED_SOYBEAN)));
+    public static final Item SOYBEAN = registerItem("soybean", new AliasedBlockItem(ModBlocks.SOYBEAN_CROP,
+            new FabricItemSettings().food(ModFoodComponents.SOYBEAN)));
     public static final Item GYPSUM = registerItem("gypsum", new Item(new FabricItemSettings()));
-    public static final Item SOY_MILK = registerItem("soy_milk", new Item(new FabricItemSettings().food(ModFoodComponents.SOY_MILK).recipeRemainder(Items.GLASS_BOTTLE)));
+
+    public static final Item DRIED_SOYBEAN = registerItem("dried_soybean", new Item(new FabricItemSettings().food(ModFoodComponents.DRIED_SOYBEAN)));
     public static final Item TOFU = registerItem("tofu", new Item(new FabricItemSettings().food(ModFoodComponents.TOFU)));
     public static final Item FAKON = registerItem("fakon", new Item(new FabricItemSettings().food(ModFoodComponents.FAKON)));
     public static final Item BEFF = registerItem("beff", new Item(new FabricItemSettings().food(ModFoodComponents.BEFF)));
@@ -30,11 +33,20 @@ public class ModItems {
     public static final Item CHEEZ = registerItem("cheez", new Item(new FabricItemSettings().food(ModFoodComponents.CHEEZ)));
     public static final Item NEGG = registerItem("negg", new Item(new FabricItemSettings().food(ModFoodComponents.NEGG)));
     public static final Item EDAMAME = registerItem("edamame", new Item(new FabricItemSettings().food(ModFoodComponents.EDAMAME)));
-    public static final Item MISO_BROTH = registerItem("miso_broth", new Item(new FabricItemSettings().food(ModFoodComponents.MISO_BROTH).recipeRemainder(Items.BOWL)));
-    public static final Item MISO_SOUP = registerItem("miso_soup", new Item(new FabricItemSettings().food(ModFoodComponents.MISO_SOUP).recipeRemainder(Items.BOWL)));
-    public static final Item UDON = registerItem("udon", new Item(new FabricItemSettings().food(ModFoodComponents.UDON).recipeRemainder(Items.BOWL)));
-    public static final Item SILKEN_STEW = registerItem("silken_stew", new Item(new FabricItemSettings().food(ModFoodComponents.SILKEN_STEW).recipeRemainder(Items.BOWL)));
 
+    //contained consumables
+    public static final Item SOY_MILK = registerItem("soy_milk", new DrinkableItem(new FabricItemSettings().food(ModFoodComponents.SOY_MILK)
+            .recipeRemainder(Items.GLASS_BOTTLE)));
+    public static final Item MISO_BROTH = registerItem("miso_broth", new ConsumableItem(new FabricItemSettings().food(ModFoodComponents.MISO_BROTH)
+            .recipeRemainder(Items.BOWL)));
+    public static final Item MISO_SOUP = registerItem("miso_soup", new ConsumableItem(new FabricItemSettings().food(ModFoodComponents.MISO_SOUP)
+            .recipeRemainder(Items.BOWL)));
+    public static final Item UDON = registerItem("udon", new ConsumableItem(new FabricItemSettings().food(ModFoodComponents.UDON)
+            .recipeRemainder(Items.BOWL)));
+    public static final Item SILKEN_STEW = registerItem("silken_stew", new ConsumableItem(new FabricItemSettings().food(ModFoodComponents.SILKEN_STEW)
+            .recipeRemainder(Items.BOWL)));
+
+    //recipes
     public static final Item FAKON_RECIPE = registerItem("fakon_recipe", new Item(new FabricItemSettings()));
     public static final Item BEFF_RECIPE = registerItem("beff_recipe", new Item(new FabricItemSettings()));
     public static final Item MUTTN_RECIPE = registerItem("muttn_recipe", new Item(new FabricItemSettings()));

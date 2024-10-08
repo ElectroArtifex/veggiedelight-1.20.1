@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "veggiedelight:soybean"
+    },
+    {
+      "item": "veggiedelight:soy_milk"
+    },
+    {
+      "item": "veggiedelight:tofu"
+    },
+    {
+      "item": "veggiedelight:tofu"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "farmersdelight:smoked_ham"
+    },
+    {
+      "item": "farmersdelight:smoked_ham"
+    },
+    {
+      "item": "farmersdelight:ham"
+    },
+    {
+      "item": "farmersdelight:ham"
+    }
+  ],
+  "result": {
+    "item": "veggiedelight:hem_recipe"
+  }
+}

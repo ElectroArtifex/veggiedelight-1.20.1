@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "item": "farmersdelight:minced_beef"
+      },
+      {
+        "item": "veggiedelight:beff"
+      }
+    ],
+
+    {
+      "tag": "c:foods/pastas"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersdelight:pasta_with_meatballs"
+  }
+}

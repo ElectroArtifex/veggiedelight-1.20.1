@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#RC",
+    "BT "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:baked_potato"
+    },
+    "R": {
+      "item": "veggiedelight:rabbnt"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "B":
+      {
+        "tag": "c:foods/ediblemushrooms"
+      },
+
+    "T": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "id": "minecraft:rabbit_stew",
+    "count": 1
+  }
+}

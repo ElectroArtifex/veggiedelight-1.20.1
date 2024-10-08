@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "veggiedelight:miso_broth",
+    "veggiedelight:miso_soup",
+    "veggiedelight:dried_soybean",
+    "veggiedelight:udon",
+    "veggiedelight:silken_stew"
+  ]
+}

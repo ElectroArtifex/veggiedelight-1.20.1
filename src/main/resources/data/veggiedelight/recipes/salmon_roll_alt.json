@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "veggiedelight:sorta_fishy"
+    },
+    {
+      "item": "veggiedelight:sorta_fishy"
+    },
+    {
+      "item": "veggiedelight:sorta_fishy"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "farmersdelight:salmon_roll"
+  }
+}

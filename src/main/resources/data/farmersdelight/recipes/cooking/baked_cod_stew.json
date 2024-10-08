@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    [
+      {
+        "tag": "c:foods/raw_fishes/cod"
+      },
+      {
+        "tag": "c:foods/fake_meats/soyfish"
+      }
+    ],
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:crops/tomato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersdelight:baked_cod_stew"
+  }
+}

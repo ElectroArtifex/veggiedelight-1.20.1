@@ -18,12 +18,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.QUARTZ_BLOCK)));
 
 
-    public static final Block APPLE_CRATE = registerBlock("apple_crate",
-            new Block(FabricBlockSettings.copyOf(Blocks.CARVED_PUMPKIN)));
-    public static final Block MELON_CRATE = registerBlock("melon_crate",
-            new Block(FabricBlockSettings.copyOf(Blocks.CARVED_PUMPKIN)));
-    public static final Block PUMPKIN_CRATE = registerBlock("pumpkin_crate",
-            new Block(FabricBlockSettings.copyOf(Blocks.CARVED_PUMPKIN)));
     public static final Block SOYBEAN_CRATE = registerBlock("soybean_crate",
             new Block(FabricBlockSettings.copyOf(Blocks.CARVED_PUMPKIN)));
 
