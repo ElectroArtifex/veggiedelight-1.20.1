@@ -8,13 +8,10 @@
     },
     [
       {
-        "tag": "farmersdelight:cabbage_roll_ingredients"
+        "tag": "veggiedelight:fake_meats"
       },
       {
-        "tag": "c:foods/fake_meats"
-      },
-      {
-        "tag": "c:foods/vegetables/soybeans"
+        "tag": "veggiedelight:soybeans"
       }
     ]
   ],

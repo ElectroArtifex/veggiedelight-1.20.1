@@ -25,7 +25,7 @@
         "tag": "c:foods/cooked_fishes"
       },
       {
-        "tag": "c:foods/fake_meats"
+        "tag": "veggiedelight:fake_meats"
       },
       {
         "item": "minecraft:cooked_rabbit"
