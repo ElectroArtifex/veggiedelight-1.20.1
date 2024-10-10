@@ -5,14 +5,9 @@
     {
       "tag": "c:foods/breads"
     },
-    [
-      {
-        "item": "farmersdelight:beef_patty"
-      },
-      {
-        "item": "veggiedelight:beff"
-      }
-    ],
+    {
+      "item": "veggiedelight:beff"
+    },
     {
       "tag": "c:salad_ingredients"
     },

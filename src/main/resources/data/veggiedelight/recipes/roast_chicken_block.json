@@ -14,14 +14,9 @@
     {
       "item": "minecraft:carrot"
     },
-    [
-      {
-        "item": "minecraft:cooked_chicken"
-      },
-      {
-        "item": "veggiedelight:chickn"
-      }
-    ],
+    {
+      "item": "veggiedelight:chickn"
+    },
     {
       "item": "minecraft:baked_potato"
     },

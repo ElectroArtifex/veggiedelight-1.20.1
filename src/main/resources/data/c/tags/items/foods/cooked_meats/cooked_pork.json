@@ -1,7 +1,7 @@
 {
-  "replace": false,
   "values": [
-    "veggiedelight:fakon",
-    "veggiedelight:hem"
+    "minecraft:cooked_porkchop",
+    "farmersdelight:cooked_bacon",
+    "veggiedelight:fakon"
   ]
 }

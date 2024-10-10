@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+
+      {
+        "tag": "veggiedelight:fake_meats"
+      },
+
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:barbecue_stick"
+  }
+}

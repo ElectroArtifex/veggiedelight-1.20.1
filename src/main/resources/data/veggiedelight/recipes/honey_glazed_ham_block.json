@@ -14,14 +14,9 @@
     {
       "item": "minecraft:sweet_berries"
     },
-    [
-      {
-        "item": "farmersdelight:smoked_ham"
-      },
       {
         "item": "veggiedelight:hem"
-      }
-    ],
+      },
     {
       "item": "minecraft:sweet_berries"
     },

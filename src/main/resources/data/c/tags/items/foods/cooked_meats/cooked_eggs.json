@@ -1,6 +1,6 @@
 {
-  "replace": false,
   "values": [
+    "farmersdelight:fried_egg",
     "veggiedelight:negg"
   ]
 }

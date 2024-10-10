@@ -1,6 +1,7 @@
 {
-  "replace": false,
   "values": [
+    "minecraft:cooked_cod",
+    "farmersdelight:cooked_cod_slice",
     "veggiedelight:sorta_fishy"
   ]
 }

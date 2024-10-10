@@ -1,6 +1,7 @@
 {
-  "replace": false,
   "values": [
+    "minecraft:cooked_mutton",
+    "farmersdelight:cooked_mutton_chops",
     "veggiedelight:muttn"
   ]
 }

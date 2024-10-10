@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/breads"
+    },
+    {
+      "tag": "c:foods/cooked_meats/cooked_beef_patties"
+    }
+  ],
+  "result": {
+    "item": "moredelight:simple_hamburger"
+  }
+}

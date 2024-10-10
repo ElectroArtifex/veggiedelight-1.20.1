@@ -6,16 +6,11 @@
       "item": "minecraft:baked_potato"
     },
     {
-      "tag": "c:crops/onion"
+      "item": "veggiedelight:beff"
     },
-    [
-      {
-        "item": "minecraft:cooked_beef"
-      },
-      {
-        "item": "veggiedelight:beff"
-      }
-    ],
+    {
+      "item": "minecraft:bowl"
+    },
     {
       "tag": "c:crops/onion"
     },
